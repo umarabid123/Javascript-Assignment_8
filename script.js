@@ -77,32 +77,54 @@
 
 //     console.log(secondValue);
 // }
-// console.log("e2 after loop ", secondValue);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Q.12 Write a JS code for Binary search algorithm
-let nums = [1, 5, 8, 16, 32, 64, 128, 256, 512, 1024, 2048]
-let num = 64
+// let nums = [1, 5, 8, 16, 32, 64, 128, 256, 512, 1024, 2048];
+// let num = 64;
 
-let start = 0
-let end = nums.length - 1
+// let start = 0;
+// let end = nums.length - 1;
 
-let ansLocation = -1
+// let ansLocation = -1;
 
-while(start <= end){
-    let mid = Math.floor((start + end) / 2)
+// while (start <= end) {
+//   let mid = Math.floor((start + end) / 2);
 
-    if (nums[mid] == num) {
-        ansLocation = mid
-        break
-    }
+//   if (nums[mid] == num) {
+//     ansLocation = mid;
+//     break;
+//   }
 
-    if(nums[mid] < num){
-        start = mid + 1;
-    } else {
-        end = mid - 1
-    }
-}
+//   if (nums[mid] < num) {
+//     start = mid + 1;
+//   } else {
+//     end = mid - 1;
+//   }
+// }
 
-
-console.log("At Index", ansLocation);
+// console.log("At Index", ansLocation);
