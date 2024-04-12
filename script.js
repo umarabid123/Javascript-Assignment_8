@@ -81,8 +81,8 @@
 
 
 // Q.12 Write a JS code for Binary search algorithm
-let nums = [1, 12, 23, 34, 599, 3567, 5678]
-let num = 3567
+let nums = [1, 5, 8, 16, 32, 64, 128, 256, 512, 1024, 2048]
+let num = 64
 
 let start = 0
 let end = nums.length - 1
@@ -105,4 +105,4 @@ while(start <= end){
 }
 
 
-console.log(ansLocation);
+console.log("At Index", ansLocation);
