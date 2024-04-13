@@ -28,13 +28,13 @@
 
 //Q.4 Write a JS code to find the power of a number using for loop
 
-let num =[25, 5, 78, 90, 80];
+let num =[25, 5, 78, 90, 16];
 let pow = 2
-let numberFind =5;
+let numbers=4;
 
 for ( let i=0; i<num.length; i++){
-    if(numberFind**pow == num[i]){
-        console.log(num[i])
+    if(numbers**pow == num[i]){
+        console.log("Number at index " + i + " number is : " + num[i])
     }
 }
 
