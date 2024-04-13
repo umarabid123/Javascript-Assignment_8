@@ -26,6 +26,34 @@
 // }
 // console.log(num);
 
+
+
+
+
+
+
+//Q.5  Write a JS code to find the power of a number using for loop
+/* 1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4 5 6
+1 2 3 4 5 6 7
+1 2 3 4 5 6 7 8 */
+
+// function requiredPattern(r) {
+//     for (let i = 1; i <= r; i++) {
+//         let pattern = '';
+//         for (let j = 1; j <= i; j++) {
+//             pattern += j + ' ';
+//         }
+//         document.write("<br/>" + pattern);
+//     }
+// }
+// let numR = parseInt(prompt("Enter the numbers of rows"))
+// requiredPattern(numR);
+
 // Q.6 Write a JS code to find the no of digits in a number
 
 // let number = 5680
@@ -78,29 +106,13 @@
 //     console.log(secondValue);
 // }
 
-// Q.10 
-
-// function requiredPattern(r) {
-//     for (let i = 1; i <= r; i++) {
-//         let pattern = '';
-//         for (let j = 1; j <= i; j++) {
-//             pattern += j + ' ';
-//         }
-//         document.write("<br/>" + pattern);
-//     }
-// }
-// let numR = parseInt(prompt("Enter the numbers of rows"))
-// requiredPattern(numR);
-
-// Q.11 
-
-let num = [12,14,16,11,19,90, 80, 70 , 40];
-
-let searchingNum = 40;
-
-for (let i=0; i<num.length; i++){
-    if(searchingNum == num[i]){
-        console.log("Number at index :", i);
+// Q.10 . Write a JS code to find duplicate values in a given array
+let num = [10, 20, 40, 50, 60, 20, 60, 90];
+for(let i =0; i<num.length; i++){
+    for(let j=i+1; j<num.length; j++){
+      if(num[i] == num[j]){
+        console.log("Duplicate number is :", num[i]);
+      }
     }
 }
 
@@ -114,12 +126,17 @@ for (let i=0; i<num.length; i++){
 
 
 
+// Q.11 Write a JS code for Linear search algorithm
 
+// let num = [12,14,16,11,19,90, 80, 70 , 40];
 
+// let searchingNum = 40;
 
-
-
-
+// for (let i=0; i<num.length; i++){
+//     if(searchingNum == num[i]){
+//         console.log("Number at index :", i);
+//     }
+// }
 
 // Q.12 Write a JS code for Binary search algorithm
 // let nums = [1, 5, 8, 16, 32, 64, 128, 256, 512, 1024, 2048];
