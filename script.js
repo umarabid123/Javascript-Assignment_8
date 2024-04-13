@@ -80,27 +80,29 @@
 
 // Q.10 
 
-function requiredPattern(r) {
-    for (let i = 1; i <= r; i++) {
-        let pattern = '';
-        for (let j = 1; j <= i; j++) {
-            pattern += j + ' ';
-        }
-        document.write("<br/>" + pattern);
+// function requiredPattern(r) {
+//     for (let i = 1; i <= r; i++) {
+//         let pattern = '';
+//         for (let j = 1; j <= i; j++) {
+//             pattern += j + ' ';
+//         }
+//         document.write("<br/>" + pattern);
+//     }
+// }
+// let numR = parseInt(prompt("Enter the numbers of rows"))
+// requiredPattern(numR);
+
+// Q.11 
+
+let num = [12,14,16,11,19,90, 80, 70 , 40];
+
+let searchingNum = 40;
+
+for (let i=0; i<num.length; i++){
+    if(searchingNum == num[i]){
+        console.log("Number at index :", i);
     }
 }
-let numR = parseInt(prompt("Enter the numbers of rows"))
-requiredPattern(numR);
-
-
-
-
-
-
-
-
-
-
 
 
 
