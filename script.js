@@ -78,6 +78,22 @@
 //     console.log(secondValue);
 // }
 
+// Q.10 
+
+function requiredPattern(r) {
+    for (let i = 1; i <= r; i++) {
+        let pattern = '';
+        for (let j = 1; j <= i; j++) {
+            pattern += j + ' ';
+        }
+        document.write("<br/>" + pattern);
+    }
+}
+let numR = parseInt(prompt("Enter the numbers of rows"))
+requiredPattern(numR);
+
+
+
 
 
 
