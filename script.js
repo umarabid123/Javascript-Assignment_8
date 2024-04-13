@@ -26,7 +26,17 @@
 // }
 // console.log(num);
 
+//Q.4 Write a JS code to find the power of a number using for loop
 
+let num =[25, 5, 78, 90, 80];
+let pow = 2
+let numberFind =5;
+
+for ( let i=0; i<num.length; i++){
+    if(numberFind**pow == num[i]){
+        console.log(num[i])
+    }
+}
 
 
 
@@ -107,24 +117,14 @@
 // }
 
 // Q.10 . Write a JS code to find duplicate values in a given array
-let num = [10, 20, 40, 50, 60, 20, 60, 90];
-for(let i =0; i<num.length; i++){
-    for(let j=i+1; j<num.length; j++){
-      if(num[i] == num[j]){
-        console.log("Duplicate number is :", num[i]);
-      }
-    }
-}
-
-
-
-
-
-
-
-
-
-
+// let num = [10, 20, 40, 50, 60, 20, 60, 90];
+// for(let i =0; i<num.length; i++){
+//     for(let j=i+1; j<num.length; j++){
+//       if(num[i] == num[j]){
+//         console.log("Duplicate number is :", num[i]);
+//       }
+//     }
+// }
 
 // Q.11 Write a JS code for Linear search algorithm
 
